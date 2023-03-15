@@ -1,8 +1,10 @@
 # STUTERN TODO LIST
 
+### _[Link to the Deployed Site](https://stuterntodo.netlify.app/)_
+
 ## Screenshot from Deployed Page
 
-![]()
+![TODOList_Screenshot](./todo_screenshot.png)
 
 ## Instruction
 
@@ -40,5 +42,5 @@
 
 ## Deployed Page
 
-Here is the link to the deployed page. Have fun!
-[]()
+Here is the link to the deployed page using Netlify. Have fun!
+[Stutern TODO List](https://stuterntodo.netlify.app/)
