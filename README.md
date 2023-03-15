@@ -26,12 +26,11 @@
 
 ## Design Inspirations
 
-[Design](https://ik.imagekit.io/freshman/final-app_dPFLhFnTI.gif
-https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kh657gzuo9flabph0y4a.jpg)
+[Design Inspiration for TODO List](https://ik.imagekit.io/freshman/final-app_dPFLhFnTI.gif)
 
 ## Resources
 
-[CodeGauge](https://www.codeguage.com/courses/advanced-js/storage-localstorage)
+[CodeGauge for localStorage](https://www.codeguage.com/courses/advanced-js/storage-localstorage)
 
 ## Files
 
