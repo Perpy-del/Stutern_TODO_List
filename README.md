@@ -1,7 +1,5 @@
 # STUTERN TODO LIST
 
-### _[Link to the Deployed Site](https://stuterntodo.netlify.app/)_
-
 ## Screenshot from Deployed Page
 
 ![TODOList_Screenshot](./todo_screenshot.png)
