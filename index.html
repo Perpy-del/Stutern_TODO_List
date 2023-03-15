@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./stutern_logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>STUTERN TODO</title>
+  </head>
+
+  <body>
+    <main class="todo_list">
+      <!-- First Section with Welcome Message -->
+      <section class="welcome">
+        <h2 class="welcome_text">
+          Hello Again,
+          <input type="text" id="firstname" placeholder="Name Here" />
+        </h2>
+      </section>
+
+      <!-- Second Section for Task input -->
+      <section class="new_todo">
+        <h3>TODO LIST FOR TODAY</h3>
+        <form id="create_todo">
+          <h4>What do you have planned today?</h4>
+          <input
+            type="text"
+            name="content"
+            id="content"
+            placeholder="e.g. Attend the live class session"
+          />
+
+          <!-- Select a Catergory between Business and Personal Tasks -->
+          <h4>Pick a category</h4>
+          <div class="categories">
+            <!-- Business Category -->
+            <label>
+              <input
+                type="radio"
+                name="category"
+                id="category1"
+                value="business"
+              />
+              <span class="stretch business"></span>
+              <div>Business</div>
+            </label>
+
+            <!-- Personal Category -->
+            <label>
+              <input
+                type="radio"
+                name="category"
+                id="category2"
+                value="personal"
+              />
+              <span class="stretch personal"></span>
+              <div>Personal</div>
+            </label>
+          </div>
+
+          <input type="submit" value="Add Task" />
+        </form>
+      </section>
+
+      <!-- Third Section for Created List -->
+      <section class="todo_list">
+        <h3>TODO LIST</h3>
+        <div class="list" id="todo">
+          <!-- DUMMY CONTENT FOR STYLING -->
+          <!-- <div class="todo_item">
+            <label>
+              <input type="checkbox" />
+              <span class="stretch business"></span>
+            </label>
+            <div class="todo_content">
+              <input type="text" value="Finish Assignment" readonly />
+            </div>
+
+            <div class="todo_actions">
+              <button class="edit-button">Edit</button>
+              <button class="delete-button">Delete</button>
+            </div>
+          </div>
+
+          <div class="todo_item done">
+            <label>
+              <input type="checkbox" />
+              <span class="stretch personal"></span>
+            </label>
+            <div class="todo_content">
+              <input type="text" value="Do Laundry" readonly />
+            </div>
+
+            <div class="todo_actions">
+              <button class="edit-button">Edit</button>
+              <button class="delete-button">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
