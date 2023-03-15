@@ -31,8 +31,7 @@ https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kh657gzuo9flabph0y4a.jp
 
 ## Resources
 
-[CodeGuage](https://www.codeguage.com/courses/advanced-js/storage-localstorage
-https://www.youtube.com/watch?v=fYTTUBa-lPc)
+[CodeGauge](https://www.codeguage.com/courses/advanced-js/storage-localstorage)
 
 ## Files
 
